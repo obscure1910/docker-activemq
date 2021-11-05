@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  activemq:
+    image: obscure1910/activemq:$AMQ_VERSION
+    build: ./$AMQ_VERSION
+    environment:
+      - TZ=CEST
+    ports:
+      - "8161:8161"
+    expose:
+      - 8161
