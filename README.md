@@ -9,3 +9,4 @@ This repository is a continuation of the good work on [rmohr/activemq](https://g
 ### Run container:
     docker run -d -p 61616:61616 -p 8161:8161 obscure1910/activemq:5.16.3
 
+Web console login credential are: user: `admin`, password: `admin`.
